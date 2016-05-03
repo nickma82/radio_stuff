@@ -19,3 +19,6 @@ This repository contains small Radio and SDR related utilities.
 
     Decode Somfy RTS from a demodulated bitstream
 
+Usage Example:
+
+ rtl_fm -M am -f 433.42M -s 270K | ./am_to_ook -d 10 -t 2000 -  | ./decode_somfy
